@@ -1,0 +1,11 @@
+import streamlit as st
+st.markdown("<h1 style='text-align: center;'>MY CHATBOT</h1>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center;'>Search Engine</h3>", unsafe_allow_html=True)
+st.empty()
+st.empty()
+st.empty()
+st.selectbox("Options", ["Deep Research", "Quick Search"])
+st.text_input("Search here")
+st.camera_input("Upload your files")
+st.header("Settings")
+st.write("Adjust app settings , click above.")
